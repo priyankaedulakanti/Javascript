@@ -1,0 +1,139 @@
+//var a =1
+//console.log(a);
+//let name="John";
+//console.log(typeof name);
+//let productid=12345;
+//console.log(typeof productid);
+//const id=100;
+//id="1234";
+//console.log(id);
+//let x=1;
+//console.log(typeof x);
+//console.log(x+2);
+//console.log((4-3)*2+2);
+//let str="I like \' JS";
+//console.log(str);
+//console.log(2+2)
+//console.log("2"+"2");
+// let str1="Hello";
+// console.log(str1.toUpperCase());
+
+
+
+//ARRAYS
+//let myarray=[100,"welcome",10.35,true];
+//console.log(myarray);
+//let colours=["Red","Black","Pink","Yellow"];
+//console.log(colours);
+//Accessing element
+//let arr=[5,10,15,20,25]
+//console.log(arr[1]);
+//change the value
+//arr[2]=14;
+//console.log(arr[2]);
+//Array Methods
+//pop() is used to remove the last element in array and returns that element
+//console.log(arr.pop());
+//console.log(arr);
+//push() is used to add one or more elements to the end of an array and returns the new length of the array
+//console.log(arr.push(30));
+//console.log(arr);
+//shift() removes first element from an array and returns removed element
+//console.log(arr.shift());
+//console.log(arr);
+//unshift() adds one or more elements to the beginning of an array and returns the new length of the array
+//console.log(arr.unshift(-3,-2,-1,0));
+//console.log(arr);
+//slice
+//let arr=[5,10,15,20,25]
+// console.log(arr.slice(2));
+// console.log(arr);
+
+// let arr=[1,2,3,4]
+// arr=[0,20,30]
+// console.log(arr)
+
+var arr=[1,2,3,4]
+arr=[0,20,30]
+console.log(arr)
+
+
+
+//SWITCH
+let env= "Dev";
+switch (env) {
+    case "dev":
+        console.log("Dev");
+        break;
+        case "qa":
+            console.log("QA");
+            break;
+            case "Prod":  
+            console.log("PRODUCTION");
+            break;
+    default:
+        console.log("Dev");
+        break;
+}
+
+
+
+
+//LOOPS
+//While loop
+//if the condition is true statements inside the loop will execute
+
+// let i = 1;
+
+// while (i<=10)
+// {
+//     console.log(i);
+
+//     i++;
+
+//  }
+
+
+// do while
+
+// do while loop excuete alteast once even though condition is not satified
+// let i = 1;
+
+// do {
+
+//     console.log(i);
+
+//     i++;
+
+// } while (i<=10);
+
+// let i = 1;
+
+// do {
+
+//     console.log(i);
+
+//     i++;
+
+// } while (i>=10);//1 //condition is not satisfied but executed once
+
+
+//for loop
+// for(let i=1;i<=10;i++)
+// {
+//     console.log(i);
+// }
+
+
+
+//STRINGS
+let s= "welcome";
+//In strings index starts with 0
+//charAt()
+//console.log(s.charAt(2));
+//concat()
+//console.log(s.concat("to javascript programming"));
+console.log(s.concat(" to javascript").concat("programming"));
+//replace
+s="welcome to Javascript";
+console.log(s.replace("Javascript","java"));
